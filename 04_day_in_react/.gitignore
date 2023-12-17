@@ -3,3 +3,5 @@ package-lock.json
 package.json
 .parcel-cache
 /dist
+.app.js.swo
+.app.js.swp
