@@ -1,0 +1,11 @@
+{
+  "name": "05_day_in_react",
+  "version": "1.0.0",
+  "description": "this is fifth day of learning react",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Asif raza",
+  "license": "ISC"
+}
