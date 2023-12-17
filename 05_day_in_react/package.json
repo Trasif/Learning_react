@@ -2,8 +2,9 @@
   "name": "05_day_in_react",
   "version": "1.0.0",
   "description": "this is fifth day of learning react",
-  "main": "app.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Asif raza",
@@ -12,6 +13,7 @@
     "parcel": "^2.10.3"
   },
   "dependencies": {
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "reactdom": "^2.0.0"
   }
 }
