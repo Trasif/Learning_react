@@ -10,11 +10,19 @@ const heading = React.createElement(
     <h1>This is Asif raza</h1>
   );
 
-  const HeadingComponent = () => <h1>This is Asif raza</h1>
+
+const Title = () => {
+  <h3>This is title</h3>
+};
+
+const HeadingComponent = () => {
+  <>
+  return <h1>This is Asif raza</h1>
+  </>
+}
 
   
 
-  
-  const root = ReactDOM.createElement(document.getElementById("root"));
+const root = ReactDOM.createElement(document.getElementById("root"));
   
 root.render(<HeadingComponent/>)  
