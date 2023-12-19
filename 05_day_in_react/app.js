@@ -3,9 +3,6 @@ import ReactDOM from 'reactdom';
 
 // React component 
 // Functional React component
-const Heading = () => {
-    return <h1>This is a React component</h1>;
-}
 
 // I know how to make react component tha's all 
 const body = () => {
@@ -18,6 +15,12 @@ const body = () => {
     )
 }
 
+const Heading = () => {
+    <>
+    <h1>This is a React component</h1>
+    <body/>
+    </>
+}
 // Find the root element by its ID
 const rootElement = document.getElementById("root");
 
