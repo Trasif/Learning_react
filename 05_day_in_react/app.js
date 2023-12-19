@@ -7,6 +7,17 @@ const Heading = () => {
     return <h1>This is a React component</h1>;
 }
 
+// I know how to make react component tha's all 
+const body = () => {
+    return(
+        <div className="Body">
+            <div className="Search">
+                <input type="text"></input>
+            </div>
+        </div>
+    )
+}
+
 // Find the root element by its ID
 const rootElement = document.getElementById("root");
 
